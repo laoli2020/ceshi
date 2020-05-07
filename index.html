@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+</head>
+
+
+
+
+
+
+<body>
+    <header class="m-head">
+       <span class="m-nav-show"></span>
+        <a class="m-logo" href="#"><img src="img/logo.png" alt=""></a>
+        
+    </header>
+    <div class="m-nav-wrap">
+        <nav class="m-nav">
+        
+                    		 	   
+                <a href="#" class="active">首页</a>
+                <a href="#">学校概况</a>
+                <a href="#">校园动态</a>
+                <a href="#">招生招聘</a>
+                <a href="#">联系我们</a>
+                      
+        </nav>
+    </div>
+
+
+
+
+
+  <div class="center">  
+	   <header class="head">
+           <a href="#" class="head-logo"><img src="img/logo.png">
+            </a>
+
+            <nav class="head-nav">        		 	   
+            <a href="#" class="active">首页</a>
+            <a href="#">学校概况</a>
+            <a href="#">校园动态</a>
+            <a href="#">招生招聘</a>
+            <a href="#">联系我们</a>
+            </nav>          
+       </header>
+
+       <div class="banner" id="banner"></div>
+
+   </div>
+   <script src="js/easy-slide.js"></script>
+   <script>
+       var bannerDate = [{
+           imgUrl:"img/test/banner1.jpg",
+           link:"#"
+       },
+       {
+           imgUrl:"img/test/banner2.webp",
+           link:"#"
+       },
+       {
+           imgUrl:"img/test/banner3.webp",
+           link:"#"
+       },
+       {
+           imgUrl:"img/test/banner4.webp",
+           link:"#"
+       } 
+       ];
+       easySlide("#banner",bannerDate,{
+           pagination:false
+       })
+   </script>
+</body>
+
+</html>
+
